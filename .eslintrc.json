@@ -1,0 +1,26 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "react-native",
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    "global-require": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": ["error", { "packageDir": "./" }],
+    "react/jsx-filename-extension": [1, { "extensions": [ ".js", ".jsx" ]}],
+    "react/prop-types": ["error", { "ignore": ["navigation"] }],
+    "react/forbid-prop-types": "off",
+    "linebreak-style":"off"
+  }
+}

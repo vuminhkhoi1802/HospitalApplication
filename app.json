@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Nha Khoa Việt Úc",
+    "slug": "beestro-camellia",
+    "sdkVersion": "28.0.0",
+    "privacy": "unlisted",
+    "version": "1.0",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#f8971b"
+    },
+    "icon": "assets/app/app_logo.png",
+    "ios": {
+      "bundleIdentifier": "com.beestromed.camellia",
+      "buildNumber": "3"
+    },
+    "android": {
+      "package": "com.beestromed.camellia",
+      "versionCode": 3,
+      "permissions": []
+    },
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover",
+      "image": "assets/app/splash.png"
+    },
+    "notification": {
+      "icon": "assets/app/notification_logo.png",
+      "color": "#f8971b"
+    }
+  }
+}
